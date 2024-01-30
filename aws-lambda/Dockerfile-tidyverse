@@ -1,5 +1,5 @@
 ARG FAASR_TAG
-FROM nanmu08/base-tidyverse:${FAASR_TAG}-${TAG_SUFFIX}
+FROM nanmu08/base-tidyverse:${FAASR_TAG}-dev
 
 RUN chmod -R 755 /action
 
